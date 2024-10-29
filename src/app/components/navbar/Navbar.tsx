@@ -26,12 +26,14 @@ export const Navbar = () => (
         </Link>
       ))}
     </ul>
-    <Button
-      title="Login"
-      type="button"
-      icon="./user.svg"
-      variant="btn_dark_green"
-    />
+    <div className="lg:flexCenter hidden">
+      <Button
+        title="Login"
+        type="button"
+        icon="./user.svg"
+        variant="btn_dark_green"
+      />
+    </div>
     <Image
       src="menu.svg"
       alt="menu"
