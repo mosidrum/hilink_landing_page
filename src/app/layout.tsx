@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import {Footer, Navbar} from "@/app/components";
 
 export const metadata: Metadata = {
   title: "Travel Camping",
@@ -14,7 +15,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
+      <Navbar />
         <main className="relative overflow-hidden">{children}</main>
+      <Footer />
       </body>
     </html>
   );
