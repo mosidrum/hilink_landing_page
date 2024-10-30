@@ -3,6 +3,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.nextjs-static-indicator-toast-icon {
+  display: none;
+}
 
 * {
   margin: 0;
