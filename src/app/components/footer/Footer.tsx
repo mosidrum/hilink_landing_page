@@ -21,7 +21,7 @@ const links = [
   },
   {
     title: "Our Community",
-    links: ["Climbing xixixi", "Hiking hilink", "Hilink kinthill"],
+    links: ["Climbing", "Hiking", "Swimming"],
   },
 ];
 
@@ -29,7 +29,7 @@ const contactInfo = {
   title: "Contact Us",
   links: [
     { label: "Admin Officer", value: "123-456-7890" },
-    { label: "Email Officer", value: "hilink@akinthil.com" },
+    { label: "Email Officer", value: "mosiokanga@gmail.com" },
   ],
 };
 
